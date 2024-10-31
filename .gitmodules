@@ -2,3 +2,8 @@
 	path = OCA/web
 	url = git@github.com:OCA/web.git
 	branch = 18.0
+
+[submodule "akretion/snjb"]
+	path = akretion/snjb
+	url = git@github.com:akretion/snjb.git
+	branch = 18.0
