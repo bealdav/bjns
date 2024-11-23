@@ -12,3 +12,8 @@
 	path = codeforward-bv/product-attribute-sequence
 	url = git@github.com:codeforward-bv/product-attribute.git
 	branch = 18.0-mig-product_sequence
+
+[submodule "astirpe/server-auth-impersonate"]
+	path = astirpe/server-auth-impersonate
+	url = git@github.com:astirpe/server-auth.git
+	branch = 18_mig_impersonate_login
