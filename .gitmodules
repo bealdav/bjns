@@ -1,19 +1,17 @@
-[submodule "OCA/web"]
-	path = OCA/web
-	url = git@github.com:OCA/web.git
-	branch = 18.0
-
 [submodule "akretion/snjb"]
 	path = akretion/snjb
 	url = git@github.com:akretion/snjb.git
 	branch = 18.0
 
-[submodule "codeforward-bv/product-attribute-sequence"]
-	path = codeforward-bv/product-attribute-sequence
+[submodule "acsone/.product-attribute-supplierinfo-pricelist"]
+	path = acsone/.product-attribute-supplierinfo-pricelist
+	url = git@github.com:acsone/product-attribute.git
+	branch = 18.0-mig-product_pricelist_supplierinfo
+[submodule "codeforward-bv/.product-attribute-sequence"]
+	path = codeforward-bv/.product-attribute-sequence
 	url = git@github.com:codeforward-bv/product-attribute.git
 	branch = 18.0-mig-product_sequence
-
-[submodule "astirpe/server-auth-impersonate"]
-	path = astirpe/server-auth-impersonate
+[submodule "astirpe/.server-auth-impersonate"]
+	path = astirpe/.server-auth-impersonate
 	url = git@github.com:astirpe/server-auth.git
 	branch = 18_mig_impersonate_login
