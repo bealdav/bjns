@@ -15,3 +15,8 @@
 	path = astirpe/.server-auth-impersonate
 	url = git@github.com:astirpe/server-auth.git
 	branch = 18_mig_impersonate_login
+
+[submodule "OCA/product-attribute"]
+	path = OCA/product-attribute
+	url = git@github.com:OCA/product-attribute.git
+	branch = 18.0
