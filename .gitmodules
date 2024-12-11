@@ -35,3 +35,8 @@
 	path = bealdav/odoo-migration-field
 	url = git@github.com:bealdav/odoo-migration-field.git
 	branch = 18.0
+
+[submodule "OCA/server-ux"]
+	path = OCA/server-ux
+	url = git@github.com:OCA/server-ux.git
+	branch = 18.0
