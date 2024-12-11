@@ -40,3 +40,8 @@
 	path = OCA/server-ux
 	url = git@github.com:OCA/server-ux.git
 	branch = 18.0
+
+[submodule "akretion/l10n-france"]
+	path = akretion/l10n-france
+	url = git@github.com:akretion/l10n-france.git
+	branch = 18-mig-l10n_fr_pos_caisse_ap_ip
