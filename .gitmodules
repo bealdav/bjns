@@ -49,3 +49,7 @@
 	path = akretion/.l10n-france
 	url = git@github.com:akretion/l10n-france.git
 	branch = 18-mig-l10n_fr_pos_caisse_ap_ip
+[submodule "bud-e/.web"]
+	path = bud-e/.web
+	url = git@github.com:bud-e/web.git
+	branch = web-m2x-options-18.0
