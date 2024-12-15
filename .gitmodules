@@ -53,3 +53,7 @@
 	path = bud-e/.web
 	url = git@github.com:bud-e/web.git
 	branch = web-m2x-options-18.0
+[submodule "akretion/.purchase-workflow-fop"]
+	path = akretion/.purchase-workflow-fop
+	url = git@github.com:akretion/purchase-workflow.git
+	branch = 18-mig-purchase_fop_shipping
