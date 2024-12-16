@@ -3,10 +3,6 @@
 	url = git@github.com:akretion/snjb.git
 	branch = 18.0
 
-[submodule "acsone/.product-attribute-supplierinfo-pricelist"]
-	path = acsone/.product-attribute-supplierinfo-pricelist
-	url = git@github.com:acsone/product-attribute.git
-	branch = 18.0-mig-product_pricelist_supplierinfo
 [submodule "codeforward-bv/.product-attribute-sequence"]
 	path = codeforward-bv/.product-attribute-sequence
 	url = git@github.com:codeforward-bv/product-attribute.git
@@ -57,3 +53,7 @@
 	path = akretion/.purchase-workflow-fop
 	url = git@github.com:akretion/purchase-workflow.git
 	branch = 18-mig-purchase_fop_shipping
+[submodule "akretion/.product-attribute-supplierinfo-pricelist"]
+	path = akretion/.product-attribute-supplierinfo-pricelist
+	url = git@github.com:akretion/product-attribute.git
+	branch = 18-product_pricelist_supplierinfo-fork
