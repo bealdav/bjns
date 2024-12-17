@@ -57,3 +57,8 @@
 	path = akretion/.product-attribute-supplierinfo-pricelist
 	url = git@github.com:akretion/product-attribute.git
 	branch = 18-product_pricelist_supplierinfo-fork
+
+[submodule "OCA/partner-contact"]
+	path = OCA/partner-contact
+	url = git@github.com:OCA/partner-contact.git
+	branch = 18.0
