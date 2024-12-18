@@ -62,3 +62,8 @@
 	path = OCA/partner-contact
 	url = git@github.com:OCA/partner-contact.git
 	branch = 18.0
+
+[submodule "akretion/ak-odoo-incubator"]
+	path = akretion/ak-odoo-incubator
+	url = git@github.com:akretion/ak-odoo-incubator.git
+	branch = cost-from-supinfo
