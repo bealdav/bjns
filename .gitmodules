@@ -67,3 +67,8 @@
 	path = akretion/ak-odoo-incubator
 	url = git@github.com:akretion/ak-odoo-incubator.git
 	branch = cost-from-supinfo
+
+[submodule ".akretion/product-attribute-second-cat"]
+	path = .akretion/product-attribute-second-cat
+	url = git@github.com:akretion/product-attribute.git
+	branch = 18-second-categ
