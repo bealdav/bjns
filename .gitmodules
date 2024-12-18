@@ -63,12 +63,22 @@
 	url = git@github.com:OCA/partner-contact.git
 	branch = 18.0
 
-[submodule "akretion/ak-odoo-incubator"]
+[submodule "akretion/.ak-odoo-incubator-cost-from-supinf"]
+	path = akretion/.ak-odoo-incubator-cost-from-supinf
+	url = git@github.com:akretion/ak-odoo-incubator.git
+	branch = cost-from-supinfo
+
+[submodule "akretion/ak-odoo-incubator-to-remove"]
 	path = akretion/ak-odoo-incubator
 	url = git@github.com:akretion/ak-odoo-incubator.git
 	branch = cost-from-supinfo
 
-[submodule ".akretion/product-attribute-second-cat"]
-	path = .akretion/product-attribute-second-cat
+[submodule "akretion/product-attribute-second-cat"]
+	path = akretion/.product-attribute-second-cat
+	url = git@github.com:akretion/product-attribute.git
+	branch = 18-second-categ
+
+[submodule "akretion/.product-attribute-second-categ"]
+	path = akretion/.product-attribute-second-categ
 	url = git@github.com:akretion/product-attribute.git
 	branch = 18-second-categ
