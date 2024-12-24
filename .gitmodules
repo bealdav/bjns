@@ -72,3 +72,8 @@
 	path = .akretion/product-attribute-second-cat
 	url = git@github.com:akretion/product-attribute.git
 	branch = 18-second-categ
+
+[submodule "OCA/mail"]
+	path = OCA/mail
+	url = git@github.com:OCA/mail.git
+	branch = 18.0
