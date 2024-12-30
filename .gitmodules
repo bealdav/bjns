@@ -77,3 +77,8 @@
 	path = OCA/mail
 	url = git@github.com:OCA/mail.git
 	branch = 18.0
+
+[submodule ".adhoc-dev/web"]
+	path = .adhoc-dev/web
+	url = git@github.com:adhoc-dev/web.git
+	branch = 18.0-mig-web_favicon
