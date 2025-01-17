@@ -87,3 +87,8 @@
 	path = .akretion/reporting-engine
 	url = git@github.com:akretion/reporting-engine.git
 	branch = 18.0-mig-sql_export
+
+[submodule "OCA/reporting-engine"]
+	path = OCA/reporting-engine
+	url = git@github.com:OCA/reporting-engine.git
+	branch = 18.0
