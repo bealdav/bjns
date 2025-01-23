@@ -97,3 +97,8 @@
 	path = bizzappdev/.sale-cancel
 	url = git@github.com:bizzappdev/sale-workflow.git
 	branch = 18.0-mig-sale_advance_payment﻿﻿-BAD
+
+[submodule "pfranck/.product--code-uniq"]
+	path = pfranck/.product--code-uniq
+	url = git@github.com:pfranck/product-attribute.git
+	branch = 18.0-mig-product_code_unique
