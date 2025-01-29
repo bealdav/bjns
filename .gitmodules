@@ -102,3 +102,8 @@
 	path = pfranck/.product--code-uniq
 	url = git@github.com:pfranck/product-attribute.git
 	branch = 18.0-mig-product_code_unique
+
+[submodule "OCA/sale-workflow"]
+	path = OCA/sale-workflow
+	url = git@github.com:OCA/sale-workflow.git
+	branch = 18.0
