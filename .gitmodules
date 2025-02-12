@@ -78,16 +78,6 @@
 	url = git@github.com:OCA/mail.git
 	branch = 18.0
 
-[submodule ".adhoc-dev/web"]
-	path = .adhoc-dev/web
-	url = git@github.com:adhoc-dev/web.git
-	branch = 18.0-mig-web_favicon
-
-[submodule ".akretion/reporting-engine"]
-	path = .akretion/reporting-engine
-	url = git@github.com:akretion/reporting-engine.git
-	branch = 18.0-mig-sql_export
-
 [submodule "OCA/reporting-engine"]
 	path = OCA/reporting-engine
 	url = git@github.com:OCA/reporting-engine.git
