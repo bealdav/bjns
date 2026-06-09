@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record
+        id="internal_adm_grp"
+        model="res.groups"
+        context="{'no_reset_password': True}"
+    >
+        <field name="name">Internal Admin</field>
+        <field name="category_id" ref="base.module_category_usability" />
+        <field name="comment">Allow to set default groups to some advanced users</field>
+    </record>
+
+    <function model="res.users" name="write" context="{'no_reset_password': True}">
+        <value eval="[ref('base.user_root'), ref('base.user_admin')]" />
+        <value eval="{'groups_id': [(4, ref('internal_adm_grp'))]}" />
+    </function>
+
+    <record id="internal_adm_grp" model="res.groups">
+        <field name="implied_ids" eval="[(4, ref('base.group_multi_currency'))]" />
+    </record>
+    <record id="internal_adm_grp" model="res.groups">
+        <field name="implied_ids" eval="[(4, ref('uom.group_uom'))]" />
+    </record>
+    <record id="internal_adm_grp" model="res.groups">
+        <field
+            name="implied_ids"
+            eval="[(4, ref('product.group_product_variant')), (4, ref('product.group_stock_packaging')), (4, ref('sale.group_discount_per_so_line'))]"
+        />
+    </record>
+    <record id="internal_adm_grp" model="res.groups">
+        <field
+            name="implied_ids"
+            eval="[(4, ref('account.group_delivery_invoice_address')), (4, ref('account.group_warning_account')), (4, ref('account.group_account_user')), (4, ref('account.group_delivery_invoice_address'))]"
+        />
+    </record>
+    <record id="internal_adm_grp" model="res.groups">
+        <field name="implied_ids" eval="[(4, ref('sale.group_warning_sale'))]" />
+    </record>
+    <record id="internal_adm_grp" model="res.groups">
+        <field
+            name="implied_ids"
+            eval="[(4, ref('stock.group_adv_location')), (4, ref('stock.group_tracking_lot')), (4, ref('stock.group_stock_multi_locations')), (4, ref('stock.group_warning_stock'))]"
+        />
+    </record>
+    <record id="internal_adm_grp" model="res.groups">
+        <field
+            name="implied_ids"
+            eval="[(4, ref('purchase.group_warning_purchase'))]"
+        />
+    </record>
+</odoo>

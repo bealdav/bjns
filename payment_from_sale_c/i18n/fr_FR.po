@@ -1,0 +1,196 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* payment_from_sale_c
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-07 13:43+0000\n"
+"PO-Revision-Date: 2025-02-10 20:29+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: payment_from_sale_c
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_line_wiz__amount
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_wiz__amount
+msgid "Amount"
+msgstr "Montant"
+
+#. module: payment_from_sale_c
+#: model:ir.model.fields,help:payment_from_sale_c.field_sale_order__easy_payable
+msgid "Authorize quick payment"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model_terms:ir.ui.view,arch_db:payment_from_sale_c.easy_payment_wiz_form
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: payment_from_sale_c
+#: model:ir.model,name:payment_from_sale_c.model_res_company
+msgid "Companies"
+msgstr "Sociétés"
+
+#. module: payment_from_sale_c
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_line_wiz__company_id
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_wiz__company_id
+msgid "Company"
+msgstr "Société"
+
+#. module: payment_from_sale_c
+#: model:ir.model,name:payment_from_sale_c.model_res_config_settings
+msgid "Config Settings"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model_terms:ir.ui.view,arch_db:payment_from_sale_c.res_config_settings_view_form
+msgid "Contacter akretion avant de modifier"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_line_wiz__create_uid
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_wiz__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_line_wiz__create_date
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_wiz__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_wiz__currency_id
+msgid "Currency"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_abstract__payment_date
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_line_wiz__payment_date
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_wiz__payment_date
+msgid "Date"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_line_wiz__display_name
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_wiz__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_wiz__due
+msgid "Due"
+msgstr "Dû"
+
+#. module: payment_from_sale_c
+#: model:ir.model.fields,help:payment_from_sale_c.field_easy_payment_abstract__payment_domain
+#: model:ir.model.fields,help:payment_from_sale_c.field_easy_payment_line_wiz__payment_domain
+#: model:ir.model.fields,help:payment_from_sale_c.field_easy_payment_wiz__payment_domain
+msgid "Dynamic domain used for any field"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_sale_order__easy_payable
+msgid "Easy Payable"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_line_wiz__easy_payment_id
+msgid "Easy Payment"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model:ir.actions.act_window,name:payment_from_sale_c.easy_payment_wiz_action
+msgid "Easy payment"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model:ir.model,name:payment_from_sale_c.model_easy_payment_wiz
+msgid "Easy payment from sale"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model:ir.model,name:payment_from_sale_c.model_easy_payment_line_wiz
+msgid "Easy payment line from sale"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model:ir.model,name:payment_from_sale_c.model_easy_payment_abstract
+msgid "Easy payment mixin"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_line_wiz__id
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_wiz__id
+msgid "ID"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_line_wiz__write_uid
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_wiz__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_line_wiz__write_date
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_wiz__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_wiz__line_ids
+msgid "Line"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model_terms:ir.ui.view,arch_db:payment_from_sale_c.easy_payment_wiz_form
+msgid "Payer"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_abstract__payment_method_line_id
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_line_wiz__payment_method_line_id
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_wiz__payment_method_line_id
+msgid "Payment"
+msgstr "Paiement"
+
+#. module: payment_from_sale_c
+#. odoo-python
+#: code:addons/payment_from_sale_c/wizards/easy_payment_wiz.py:0
+msgid "Payment %s"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_abstract__payment_domain
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_line_wiz__payment_domain
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_easy_payment_wiz__payment_domain
+msgid "Payment Domain"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_res_company__quick_payment_method_ids
+#: model:ir.model.fields,field_description:payment_from_sale_c.field_res_config_settings__quick_payment_method_ids
+msgid "Quick Payment Method"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model_terms:ir.ui.view,arch_db:payment_from_sale_c.res_config_settings_view_form
+msgid "Quick Sale Payments"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model:ir.model,name:payment_from_sale_c.model_sale_order
+msgid "Sales Order"
+msgstr ""
+
+#. module: payment_from_sale_c
+#: model_terms:ir.ui.view,arch_db:payment_from_sale_c.view_order_form
+msgid "💳 Payment"
+msgstr "💳 Paiement"
