@@ -4,10 +4,9 @@
     "category": "Misc",
     "author": "Akretion",
     "license": "AGPL-3",
-    "version": "18.0.1.0.3",
+    "version": "18.0.1.1.0",
     "depends": [
         "contacts",
-        "cost_from_supplierinfo",
         "l10n_fr",  # better to primarly load this instead of 'account'
         "maintenance",
         "product_second_category",
