@@ -1,0 +1,5 @@
+<odoo>
+
+    <function model="ir.actions.act_window.view" name="_contact_default_view_type" />
+
+</odoo>

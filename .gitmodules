@@ -1,97 +1,12 @@
-[submodule "akretion/snjb"]
-	path = akretion/snjb
-	url = git@github.com:akretion/snjb.git
-	branch = 18.0
-
-[submodule "codeforward-bv/.product-attribute-sequence"]
-	path = codeforward-bv/.product-attribute-sequence
-	url = git@github.com:codeforward-bv/product-attribute.git
-	branch = 18.0-mig-product_sequence
-[submodule "astirpe/.server-auth-impersonate"]
-	path = astirpe/.server-auth-impersonate
-	url = git@github.com:astirpe/server-auth.git
-	branch = 18_mig_impersonate_login
-
 [submodule "OCA/product-attribute"]
 	path = OCA/product-attribute
 	url = git@github.com:OCA/product-attribute.git
 	branch = 18.0
 
-[submodule "OCA/server-auth"]
-	path = OCA/server-auth
-	url = git@github.com:OCA/server-auth.git
-	branch = 18.0
-
-[submodule "OCA/web"]
-	path = OCA/web
-	url = git@github.com:OCA/web.git
-	branch = 18.0
-
-[submodule "bealdav/odoo-migration-field"]
-	path = bealdav/odoo-migration-field
-	url = git@github.com:bealdav/odoo-migration-field.git
-	branch = 18.0
-
-[submodule "OCA/server-ux"]
-	path = OCA/server-ux
-	url = git@github.com:OCA/server-ux.git
-	branch = 18.0
-
-[submodule "akretion/.ak-odoo-incubator"]
-	path = akretion/.ak-odoo-incubator
-	url = git@github.com:akretion/ak-odoo-incubator.git
-	branch = 18-sale-legacy-price
-[submodule "akretion/.l10n-france"]
-	path = akretion/.l10n-france
-	url = git@github.com:akretion/l10n-france.git
-	branch = 18-mig-l10n_fr_pos_caisse_ap_ip
-[submodule "bud-e/.web"]
-	path = bud-e/.web
-	url = git@github.com:bud-e/web.git
-	branch = web-m2x-options-18.0
-[submodule "akretion/.purchase-workflow-fop"]
-	path = akretion/.purchase-workflow-fop
-	url = git@github.com:akretion/purchase-workflow.git
-	branch = 18-mig-purchase_fop_shipping
-[submodule "akretion/.product-attribute-supplierinfo-pricelist"]
-	path = akretion/.product-attribute-supplierinfo-pricelist
-	url = git@github.com:akretion/product-attribute.git
-	branch = 18-product_pricelist_supplierinfo-fork
-
 [submodule "OCA/partner-contact"]
 	path = OCA/partner-contact
 	url = git@github.com:OCA/partner-contact.git
 	branch = 18.0
-
-[submodule "akretion/ak-odoo-incubator"]
-	path = akretion/ak-odoo-incubator
-	url = git@github.com:akretion/ak-odoo-incubator.git
-	branch = cost-from-supinfo
-
-[submodule ".akretion/product-attribute-second-cat"]
-	path = .akretion/product-attribute-second-cat
-	url = git@github.com:akretion/product-attribute.git
-	branch = 18-second-categ
-
-[submodule "OCA/mail"]
-	path = OCA/mail
-	url = git@github.com:OCA/mail.git
-	branch = 18.0
-
-[submodule "OCA/reporting-engine"]
-	path = OCA/reporting-engine
-	url = git@github.com:OCA/reporting-engine.git
-	branch = 18.0
-
-[submodule "bizzappdev/.sale-cancel"]
-	path = bizzappdev/.sale-cancel
-	url = git@github.com:bizzappdev/sale-workflow.git
-	branch = 18.0-mig-sale_cancel_reason-BAD
-
-[submodule "pfranck/.product--code-uniq"]
-	path = pfranck/.product--code-uniq
-	url = git@github.com:pfranck/product-attribute.git
-	branch = 18.0-mig-product_code_unique
 
 [submodule "OCA/sale-workflow"]
 	path = OCA/sale-workflow
