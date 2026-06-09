@@ -4,7 +4,7 @@
     "category": "Misc",
     "author": "Akretion",
     "license": "AGPL-3",
-    "version": "18.0.1.0.2",
+    "version": "18.0.1.0.3",
     "depends": [
         "contacts",
         "cost_from_supplierinfo",
@@ -14,6 +14,7 @@
         "purchase",
         "sale_management",
         "sale_stock",
+        "point_of_sale",
     ],
     "data": [
         "security/group.xml",
