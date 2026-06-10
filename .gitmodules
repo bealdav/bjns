@@ -1,14 +1,14 @@
-[submodule "OCA/product-attribute"]
-	path = OCA/product-attribute
+[submodule ".OCA/product-attribute"]
+	path = .OCA/product-attribute
 	url = git@github.com:OCA/product-attribute.git
 	branch = 18.0
 
-[submodule "OCA/partner-contact"]
-	path = OCA/partner-contact
+[submodule ".OCA/partner-contact"]
+	path = .OCA/partner-contact
 	url = git@github.com:OCA/partner-contact.git
 	branch = 18.0
 
-[submodule "OCA/sale-workflow"]
-	path = OCA/sale-workflow
+[submodule ".OCA/sale-workflow"]
+	path = .OCA/sale-workflow
 	url = git@github.com:OCA/sale-workflow.git
 	branch = 18.0
